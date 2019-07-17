@@ -7,18 +7,18 @@ Profile definition for groups of microwave radio interfaces, which are using the
 
 ### UML
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- to be provided
+- [CoChannelProfile_1.0.0-tsp.190717.1725](./CoChannelProfile_1.0.0-tsp.190717.1725.zip)
 
 ### Overview 
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- to be provided
+- [CoChannelProfile_1.0.0-tsp.190717.1725+overview.1](./CoChannelProfile_1.0.0-tsp.190717.1725+overview.1.png)
 
 ### List of Classes
 - to be provided
 
 ### GenDoc Export
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- to be provided
+- [CoChannelProfile_1.0.0-tsp.190717.1725+gendoc.1](./CoChannelProfile_1.0.0-tsp.190717.1725+gendoc.1.docx)
 
 ### Augmentation Condition
 - When statement in Augmentation statement demands for Profile::profileName==PROFILE_NAME_TYPE_CO_CHANNEL_PROFILE
