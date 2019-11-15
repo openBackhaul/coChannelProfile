@@ -24,7 +24,8 @@ Profile definition for groups of microwave radio interfaces, which are using the
 - When statement in Augmentation statement demands for Profile::profileName==PROFILE_NAME_TYPE_CO_CHANNEL_PROFILE
 
 ### YANG File
-- to be provided
+- Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
+- [CoChannelProfile_1.0.0-tsp.191114.1240+yang.1](./CoChannelProfile_1.0.0-tsp.191114.1240+yang.1.zip)
 
 ### Interface Simulator
 - not planned 
