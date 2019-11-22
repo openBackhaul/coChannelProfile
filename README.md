@@ -7,25 +7,25 @@ Profile definition for groups of microwave radio interfaces, which are using the
 
 ### UML
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [CoChannelProfile_1.0.0-tsp.191114.1240](./CoChannelProfile_1.0.0-tsp.191114.1240.zip)
+- [CoChannelProfile_1.0.0-tsp.191122.2005](./CoChannelProfile_1.0.0-tsp.191122.2005.zip)
 
 ### Overview 
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [CoChannelProfile_1.0.0-tsp.191114.1240+overview.1](./CoChannelProfile_1.0.0-tsp.191114.1240+overview.1.png)
+- [CoChannelProfile_1.0.0-tsp.191122.2005+overview.1](./CoChannelProfile_1.0.0-tsp.191122.2005+overview.1.png)
 
 ### List of Classes
 - to be provided
 
 ### GenDoc Export
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [CoChannelProfile_1.0.0-tsp.191114.1240+gendoc.1](./CoChannelProfile_1.0.0-tsp.191114.1240+gendoc.1.docx)
+- [CoChannelProfile_1.0.0-tsp.191122.2005+gendoc.1](./CoChannelProfile_1.0.0-tsp.191122.2005+gendoc.1.docx)
 
 ### Augmentation Condition
 - When statement in Augmentation statement demands for Profile::profileName==PROFILE_NAME_TYPE_CO_CHANNEL_PROFILE
 
 ### YANG File
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [CoChannelProfile_1.0.0-tsp.191114.1240+yang.1](./CoChannelProfile_1.0.0-tsp.191114.1240+yang.1.zip)
+- [CoChannelProfile_1.0.0-tsp.191122.2005+yang.1](./CoChannelProfile_1.0.0-tsp.191122.2005+yang.1.zip)
 
 ### Interface Simulator
 - not planned 
