@@ -1,46 +1,41 @@
 # coChannelProfile
-Profile definition for groups of microwave radio interfaces, which are using the same frequency channel
+- Profile definition for groups of microwave radio interfaces, which are using the same frequency channel
+- Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
 
 ### Branch
-- Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
 - 1.0.0-tsp.d.t : Use case driven model for the Transport SDN Pilot at Telefonica Germany
 
 ### UML
-- Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [CoChannelProfile_1.0.0-tsp.191122.2005](./CoChannelProfile_1.0.0-tsp.191122.2005.zip)
+- [CoChannelProfile_1.0.0-tsp.200127.1715](./CoChannelProfile_1.0.0-tsp.200127.1715.zip)
 
 ### Overview 
-- Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [CoChannelProfile_1.0.0-tsp.191122.2005+overview.1](./CoChannelProfile_1.0.0-tsp.191122.2005+overview.1.png)
-
-### List of Classes
-- to be provided
+- [CoChannelProfile_1.0.0-tsp.200127.1715+overview.1](./CoChannelProfile_1.0.0-tsp.200127.1715+overview.1.png)
 
 ### GenDoc Export
-- Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [CoChannelProfile_1.0.0-tsp.191122.2005+gendoc.1](./CoChannelProfile_1.0.0-tsp.191122.2005+gendoc.1.docx)
+- [CoChannelProfile_1.0.0-tsp.200127.1715+gendoc.1](./CoChannelProfile_1.0.0-tsp.200127.1715+gendoc.1.docx)
 
 ### Augmentation Condition
 - When statement in Augmentation statement demands for Profile::profileName==PROFILE_NAME_TYPE_CO_CHANNEL_PROFILE
 
 ### YANG File
-- Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [CoChannelProfile_1.0.0-tsp.191122.2005+yang.1](./CoChannelProfile_1.0.0-tsp.191122.2005+yang.1.zip)
+- [CoChannelProfile_1.0.0-tsp.200127.1715+yang.1](./CoChannelProfile_1.0.0-tsp.200127.1715+yang.1.zip)
+
+### JSON Schema
+- to be provided
 
 ### Interface Simulator
-- not planned 
+- to be provided
 
 ### Interface Validator
-- not planned
+- to be provided
 
 ### Publication
-- not planned
+- Candidate for ONF TR-532 v2.0 
 
-### Model Classification
-- Trial
+### Aspired Model Classification
+- Live Network
 
 ### Open Issue List
-- Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
 - [coChannelProfile/issues](../../issues)
 
 ### Comments
