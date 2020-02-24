@@ -18,7 +18,7 @@
 - When statement in Augmentation statement demands for Profile::profileName==PROFILE_NAME_TYPE_CO_CHANNEL_PROFILE
 
 ### YANG File
-- [CoChannelProfile_1.0.0-tsp.200127.1715+yang.1](./CoChannelProfile_1.0.0-tsp.200127.1715+yang.1.zip)
+- [CoChannelProfile_1.0.0-tsp.200127.1715+yang.2](./CoChannelProfile_1.0.0-tsp.200127.1715+yang.2.zip)
 
 ### JSON Schema
 - to be provided
