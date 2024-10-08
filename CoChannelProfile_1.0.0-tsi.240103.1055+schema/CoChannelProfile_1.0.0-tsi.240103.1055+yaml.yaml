@@ -1,0 +1,61 @@
+co-channel-profile-1-0:co-channel-profile-capability:
+  type: object
+  required:
+    - co-channel-profile-1-0:co-channel-profile-capability
+  properties:
+    co-channel-profile-1-0:co-channel-profile-capability:
+      type: object
+      required:
+        - xpic-is-avail
+        - mimo-is-avail
+        - number-of-mimo-channels-max
+        - alic-is-avail
+      properties:
+        xpic-is-avail:
+          type: boolean
+        mimo-is-avail:
+          type: boolean
+        number-of-mimo-channels-max:
+          type: integer
+          format: int8
+        alic-is-avail:
+          type: boolean
+co-channel-profile-1-0:co-channel-profile-configuration:
+  type: object
+  required:
+    - co-channel-profile-1-0:co-channel-profile-configuration
+  properties:
+    co-channel-profile-1-0:co-channel-profile-configuration:
+      type: object
+      required:
+        - external-label
+        - kind-of-co-channel-profile
+      properties:
+        external-label:
+          type: string
+        kind-of-co-channel-profile:
+          type: string
+          enum:
+            - 'co-channel-profile-1-0:KIND_OF_CO_CHANNEL_PROFILE_TYPE_XPIC'
+            - 'co-channel-profile-1-0:KIND_OF_CO_CHANNEL_PROFILE_TYPE_MIMO'
+            - 'co-channel-profile-1-0:KIND_OF_CO_CHANNEL_PROFILE_TYPE_ALIC'
+            - 'co-channel-profile-1-0:KIND_OF_CO_CHANNEL_PROFILE_TYPE_NOT_YET_DEFINED'
+        logical-termination-point-list:
+          type: array
+          minItems: 0
+          items:
+            type: string
+co-channel-profile-1-0:create-co-channel-profile:
+  type: object
+  required:
+    - co-channel-profile-1-0:output
+  properties:
+    co-channel-profile-1-0:output:
+      type: object
+      required:
+        - created-co-channel-profile
+      properties:
+        created-co-channel-profile:
+          type: string
+co-channel-profile-1-0:modify-co-channel-profile:
+co-channel-profile-1-0:delete-co-channel-profile:

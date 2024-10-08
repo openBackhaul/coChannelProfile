@@ -1,0 +1,88 @@
+@startuml CoChPro_1.0.0-tsi.240103.1055+diagram.completeness
+skinparam responseMessageBelowArrow true
+
+title
+CoChPro_1.0.0-tsi.240103.1055+diagram.completeness
+end title
+
+participant "Postman" as Postman
+participant "Collection" as Collection
+participant "../profile-collection" as ProfileCollection
+participant "../cochannel-profile-capability" as Capability
+participant "../cochannel-profile-configuration" as Configuration
+participant "/control-construct?fields=..." as ListOfLTPUuidAndLidPairsAndNames
+participant "../createCoChannelProfile" as CreateRpc
+participant "../modifyCoChannelProfile" as ModifyRpc
+participant "../deleteCoChannelProfile" as DeleteRpc
+
+activate Postman
+
+group Preparation
+  Postman --\\o Collection : mountName
+  Postman -> ProfileCollection
+  Postman <-- ProfileCollection : {(uuid, profileName)}
+  note right Postman
+    filter for
+    CoChannelProfile
+  end note
+  Postman --\\o Collection : cochannelProfileUuid1
+end
+
+group Capability Validation
+  Collection --\\o Postman : mountName,\n cochannelProfileUuid1
+  Postman -> Capability
+  Postman <-- Capability : {capabilites}
+  note right Postman
+    schema validation
+  end note
+end
+
+group Configuration Validation
+  Collection --\\o Postman : mountName,\n cochannelProfileUuid1
+  Postman -> Configuration
+  Postman <-- Configuration : {configuration}
+  note right Postman
+    schema validation
+  end note
+end
+
+group Preparation
+  Postman -> ListOfLTPUuidAndLidPairsAndNames : {mountName}
+  Postman <-- ListOfLTPUuidAndLidPairsAndNames : {(uuid, localId, layerProtocolName)}
+  note right Postman
+    selection of 2 AirInterfaces
+  end note
+  Postman --\\o Collection : [uuid_1, uuid_2]
+end
+
+group Create RPC
+  Collection --\\o Postman : [uuid_1, uuid_2]
+  Postman -> CreateRpc : {mountName, [uuid_1, uuid_2]}
+  Postman <-- CreateRpc : {cochannelProfileUuid3}
+  note right Postman
+    schema validation
+  end note
+  Postman --\\o Collection : cochannelProfileUuid3
+end
+
+group Modify RPC
+  Collection --\\o Postman : cochannelProfileUuid3
+  Postman -> ModifyRpc : {mountName, cochannelProfileUuid3}
+  Postman <-- ModifyRpc : 204
+  note right Postman
+    204?
+  end note
+end
+
+group Delete RPC
+  Collection --\\o Postman : cochannelProfileUuid3
+  Postman -> DeleteRpc : {mountName, cochannelProfileUuid3}
+  Postman <-- DeleteRpc : 204
+  note right Postman
+    204?
+  end note
+end
+
+deactivate Postman
+
+@enduml

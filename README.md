@@ -17,22 +17,22 @@
 - When statement in Augmentation statement demands for Profile::profileName==PROFILE_NAME_TYPE_CO_CHANNEL_PROFILE
 
 ### YANG File
-- [CoChannelProfile_1.0.0-tsi.240103.1055+yang.1](./CoChannelProfile_1.0.0-tsi.240103.1055+yang.1.zip)
+- [CoChannelProfile_1.0.0-tsi.240103.1055+yang.1](./CoChannelProfile_1.0.0-tsi.240103.1055+yang/co-channel-profile-1-0.yang)
 
-### JSON Schema
-- to be provided
+### Schema
+- [CoChannelProfile_1.0.0-tsi.240103.1055+schema](./CoChannelProfile_1.0.0-tsi.240103.1055+schema/)
 
 ### Interface Simulator
-- to be provided
+- [CoChannelProfile_1.0.0-tsi.240103.1055+simulator](./CoChannelProfile_1.0.0-tsi.240103.1055+simu/)
 
 ### Interface Validator
-- to be provided
+- [CoChannelProfile_1.0.0-tsi.240103.1055+validator](./CoChannelProfile_1.0.0-tsi.240103.1055+vali/)
 
 ### Publication
-- Candidate for ONF TR-532 v2.0 
+- Published as a part of ONF TR-532 v2.0  
 
-### Aspired Model Classification
-- Live Network
+### Model Classification
+- Operational in Live Network
 
 ### Open Issue List
 - [coChannelProfile/issues](../../issues)
