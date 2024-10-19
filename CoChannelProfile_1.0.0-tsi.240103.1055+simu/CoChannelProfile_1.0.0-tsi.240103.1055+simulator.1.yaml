@@ -169,8 +169,9 @@ paths:
                     properties:
                       created-co-channel-profile:
                         type: string
-                    example:
-                      created-co-channel-profile: 'string'
+              example:
+                co-channel-profile-1-0:output:
+                  created-co-channel-profile: 'string'
           headers:
             x-correlator:
               $ref: '#/components/headers/x-correlator'
